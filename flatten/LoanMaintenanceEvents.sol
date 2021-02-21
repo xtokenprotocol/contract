@@ -1,0 +1,12 @@
+// Root file: contracts/events/LoanMaintenanceEvents.sol
+
+pragma solidity 0.5.17;
+
+contract LoanMaintenanceEvents {
+    
+    event DepositCollateral(
+        bytes32 loanId,
+        uint256 depositAmount
+    );
+    
+}
